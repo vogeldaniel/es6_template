@@ -26,7 +26,11 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
+<<<<<<< HEAD
 "@babel/core@^7.6.2":
+=======
+"@babel/core@^7.0.0-0":
+>>>>>>> 1f42213bb167720d838f3b02e2d574e96f61bd5e
   version "7.6.2"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.6.2.tgz#069a776e8d5e9eefff76236bc8845566bd31dd91"
   integrity sha512-l8zto/fuoZIbncm+01p8zPSDZu/VuuJhAfA7d/AbzM09WR7iVhavvfNDYCNpo1VvLk6E6xgAoP9P+/EMJHuRkQ==
