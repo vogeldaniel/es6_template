@@ -1,0 +1,25 @@
+{
+  "name": "es6_template",
+  "version": "1.0.0",
+  "description": "Template for es6 projects w/ personal .eslintrc, .babelrc, .gitignore, etc",
+  "main": "index.js",
+  "author": "vogeldaniel",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "5.16",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-0"
+  }
+}

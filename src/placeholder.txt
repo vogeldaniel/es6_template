@@ -1,0 +1,5 @@
+Organize all of your source .js in this folder for babel to transpile.
+
+Happy coding!
+
+--Daniel
