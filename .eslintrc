@@ -1,5 +1,15 @@
 {
-  "extends": "airbnb",
+  "extends": ["airbnb", "plugin:import/errors", "plugin:import/warnings"],
+  "plugins": [
+    "jest",
+    "html",
+    "babel",
+    "json-format",
+    "array-func",
+    "promise",
+    "no-secrets",
+    "simple-import-sort"
+  ],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
@@ -11,7 +21,41 @@
   "rules": {
     "radix": 0,
     "arrow-parens": 0,
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
     "no-restricted-syntax": 0,
     "no-restricted-globals": 0,
+    "babel/new-cap": 1,
+    "babel/camelcase": 1,
+    "babel/no-invalid-this": 1,
+    "babel/object-curly-spacing": 1,
+    "babel/semi": 1,
+    "babel/no-unused-expressions": 1,
+    "babel/valid-typeof": 1,
+    "promise/always-return": "error",
+    "promise/no-return-wrap": "error",
+    "promise/param-names": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-native": "off",
+    "promise/no-nesting": "warn",
+    "promise/no-promise-in-callback": "warn",
+    "promise/no-callback-in-promise": "warn",
+    "promise/avoid-new": "warn",
+    "promise/no-new-statics": "error",
+    "promise/no-return-in-finally": "warn",
+    "promise/valid-params": "warn",
+    "no-secrets/no-secrets": "error",
+    "simple-import-sort/sort": "error",
+    "sort-imports": "off",
+    "import/order": "off"
   },
+  "settings": {
+    "import/extensions": [".js"],
+    "json/sort-package-json": "standard",
+    "json/ignore-files": ["**/package-lock.json"],
+    "json/json-with-comments-files": ["**/tsconfig.json", ".vscode/**"]
+  }
 }
