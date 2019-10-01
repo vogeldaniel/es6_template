@@ -1,8 +1,6 @@
 {
   "extends": ["airbnb", "plugin:import/errors", "plugin:import/warnings"],
   "plugins": [
-    "jest",
-    "html",
     "babel",
     "json-format",
     "array-func",
@@ -21,11 +19,6 @@
   "rules": {
     "radix": 0,
     "arrow-parens": 0,
-    "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error",
     "no-restricted-syntax": 0,
     "no-restricted-globals": 0,
     "babel/new-cap": 1,
